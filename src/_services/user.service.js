@@ -52,6 +52,7 @@ function getById(id) {
 }
 
 function register(user) {
+    // console.log('url',config.apiUrl)
     const requestOptions = {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
